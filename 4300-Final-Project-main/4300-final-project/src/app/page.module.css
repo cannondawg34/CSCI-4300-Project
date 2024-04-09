@@ -1,0 +1,38 @@
+/* page.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+}
+
+.welcomeMessage {
+  font-size: 2rem; /* Large font size for the welcome message */
+  margin-bottom: 1rem; /* Space below the message */
+}
+
+.slideshowContainer {
+  width: 300px; /* Width of the slideshow card */
+  height: 200px; /* Height of the slideshow card */
+  margin-bottom: 1rem; /* Space below the slideshow card */
+  /* Add more styling for your slideshow container/card */
+}
+
+.linkButton {
+  margin: 0.5rem; /* Space around buttons */
+  padding: 0.5rem 1rem; /* Padding inside buttons */
+  border: none; /* No border by default */
+  background-color: #f30008; /* Button color */
+  color: #fc0808; /* Text color */
+  text-decoration: none; /* No underline on text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Text size inside button */
+}
+
+.linkButton:hover {
+  background-color: #0056b3; /* Darker button color on hover */
+}

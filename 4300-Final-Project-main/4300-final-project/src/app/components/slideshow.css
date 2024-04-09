@@ -1,0 +1,13 @@
+/* components/ImageSlideshow.module.css */
+
+.slideshowContainer {
+    position: relative;
+    width: 100%; /* or your fixed width */
+    height: 300px; /* or your fixed height */
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,20 @@
+/* Button.css */
+
+.button {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 1rem 2rem; /* Increased padding for a larger button */
+  border: none;
+  background-color: #3700ff; /* Changed background to red */
+  color: white; /* White text color for better contrast */
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.00rem; /* Larger font size */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+  background-color: #4b0088; /* A darker red color on hover */
+}
